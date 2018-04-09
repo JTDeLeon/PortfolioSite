@@ -1,0 +1,10 @@
+.Slider-Container {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px dotted grey;
+  background-image: url('./../img/dark-macbook-image.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}

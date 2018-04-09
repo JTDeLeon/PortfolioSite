@@ -1,0 +1,33 @@
+nav {
+  margin: auto;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.nav-Link {
+  margin: 0 10px;
+}
+
+.a-nav-link {
+  color: white;
+}
+
+.a-nav-link:link {
+  text-decoration: none;
+}
+
+.a-nav-link:visited {
+  text-decoration: none;
+}
+
+.a-nav-link:hover {
+    text-decoration: underline;
+    color: cyan;
+}
+
+.a-nav-link:active {
+    text-decoration: underline;
+}

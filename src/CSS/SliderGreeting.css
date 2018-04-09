@@ -1,0 +1,16 @@
+.Slider-Greeting {
+  margin: auto;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Greeting-Container {
+  margin: 0;
+  color: white;
+}
+
+#scroller {
+  color: cyan;
+  text-decoration: underline;
+}
