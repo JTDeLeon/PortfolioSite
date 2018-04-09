@@ -1,0 +1,11 @@
+.headshot-container {
+  width: 30%;
+  display: flex;
+}
+
+.headshot-photo {
+  height: 250px;
+  width: 250px;
+  background-color: orange;
+  margin: auto;
+}

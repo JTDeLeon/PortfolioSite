@@ -1,0 +1,16 @@
+.AboutMe-Container {
+  height: 500px;
+  width: 100%;
+  border-bottom: 1px dotted grey;
+}
+
+#About-Title {
+  text-align: center;
+
+}
+
+.About-Content {
+  display: flex;
+  height: 80%;
+  align-items: flex-start;
+}
