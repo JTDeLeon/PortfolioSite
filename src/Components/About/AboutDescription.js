@@ -16,7 +16,7 @@ class AboutDescription extends Component {
         </div>
         <div>
           <h3>Goals & Ambitions</h3>
-          <p>Lorem ipsum dolor sit amet, debet sanctus volutpat sed ne. Et has tractatos evertitur. Ei nam facer dissentias constituam, iudicabit accusamus disputationi vim at. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.</p>
+          <p>Lorem ipsum dolor sit amet, debet sanctus volutpat sed ne. Et has tractatos evertitur. Ei nam facer dissentias constituam, iudicabit accusamus disputationi vim at. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.</p>
         </div>
 
       </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import HeaderContainer from './Header/HeaderContainer'
 import SliderContainer from './Slider/SliderContainer'
 import AboutMeContainer from './About/AboutMeContainer'
+import SkillsAndExperiencesContainer from './SkillsAndExperiences/SkillsAndExperiencesContainer'
 import '../CSS/App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <HeaderContainer />
         <SliderContainer />
         <AboutMeContainer />
+        <SkillsAndExperiencesContainer />
       </div>
     );
   }

@@ -1,0 +1,23 @@
+.Skills-Container {
+  height: 400px;
+  width: 100%;
+  border-bottom: 1px dotted grey;
+}
+
+.Column-Container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.Experiences {
+  margin: 0 50px;
+}
+
+#experience-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 15px 0 0;
+  font-weight: bold;
+}
