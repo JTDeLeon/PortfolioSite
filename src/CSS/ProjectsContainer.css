@@ -1,0 +1,17 @@
+.section-Container {
+  height: 600px;
+  width: 100%;
+  border-bottom: 1px dotted grey;
+  display: flex;
+  flex-direction: column;
+}
+
+#view-projects-btn {
+  height: 40px;
+  width: 150px;
+  margin: 50px auto;
+  background-color: #222;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+}

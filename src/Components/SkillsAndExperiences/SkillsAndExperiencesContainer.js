@@ -9,7 +9,8 @@ class SkillsAndExperiencesContainer extends Component {
     [
       'HTML5',
       'CSS',
-      'Javascript'
+      'Vanilla Javascript',
+      'JQuery'
     ];
 
     const javascriptFrameworkSkills =
@@ -55,6 +56,7 @@ class SkillsAndExperiencesContainer extends Component {
           <p>Lorem ipsum dolor sit amet, debet sanctus volutpat sed ne. Et has tractatos evertitur. Ei nam facer dissentias constituam, iudicabit accusamus disputationi vim at. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.</p>
         </div>
 
+        <button id="view-resume-btn" href="#">View Resume</button>
 
       </div>
     );
