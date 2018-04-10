@@ -7,16 +7,16 @@ class ContactForm extends Component {
       <div className="form-container">
         <form>
           <h3>Contact Me</h3>
-          <label for="name-field">Name: </label>
+          <label for="name-field">Name: </label><br/>
           <input id="name-field" placeholder="Name (Required)"></input>
-          <br/>
-          <label for="email-field">Email Address: </label>
+          <br/><br/>
+          <label for="email-field">Email Address: </label><br/>
           <input id="email-field" placeholder="Email (Required)"></input>
-          <br/>
-          <label for="message-area">Message: </label>
+          <br/><br/>
+          <label for="message-area">Message: </label><br/>
           <textarea id="message-area"></textarea>
           <br/>
-          <button>Contact Me</button>
+          <button id="contact-btn" src="#">Contact Me</button>
         </form>
 
       </div>

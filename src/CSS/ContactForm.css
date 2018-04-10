@@ -3,4 +3,24 @@
   height: 250px;
   border: 1px solid black;
   margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#name-field {
+  width: 95%;
+}
+
+#email-field {
+  width: 95%;
+}
+
+#message-area {
+  width: 95%;
+  height: 70px;
+}
+
+#contact-btn {
+  width: 98%;
+
 }

@@ -4,19 +4,20 @@ import facebook from '../../img/svg/003-facebook.svg'
 import linkedin from '../../img/svg/001-linkedin.svg'
 import instagram from '../../img/svg/004-instagram-1.svg'
 import github from '../../img/svg/006-github-logo.svg'
-// import facebook from '../../img/png/002-twitter.png'
-// import facebook from '../../img/png/002-twitter.png'
 import '../../CSS/SocialBar.css';
 
 class SocialBar extends Component {
   render() {
     return (
       <div className="social-container">
-        <img src={twitter} width="50px" height="50px"/>
-        <img src={facebook} width="50px" height="50px"/>
-        <img src={linkedin} width="50px" height="50px"/>
-        <img src={instagram} width="50px" height="50px"/>
-        <img src={github} width="50px" height="50px"/>
+        <h3 className="social-title">Connect With Me On Social: </h3>
+        <div className="icons-container">
+          <img className="social-icon" src={twitter} width="50px" height="50px" alt="Twitter"/>
+          <img className="social-icon" src={facebook} width="50px" height="50px" alt="Facebook"/>
+          <img className="social-icon" src={linkedin} width="50px" height="50px" alt="LinkedIn"/>
+          <img className="social-icon" src={instagram} width="50px" height="50px" alt="Instagram"/>
+          <img className="social-icon" src={github} width="50px" height="50px" alt="GitHub"/>
+        </div>
       </div>
     );
   }
