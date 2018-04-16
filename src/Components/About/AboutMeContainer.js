@@ -7,7 +7,7 @@ class AboutMeContainer extends Component {
   render() {
     return (
       <div className="AboutMe-Container">
-        <h1 className="SectionTitle">About Jonathan</h1>
+        <h1 className="SectionTitle">A Little About Me...</h1>
         <div className="About-Content">
           <HeadshotPhoto />
           <AboutDescription />

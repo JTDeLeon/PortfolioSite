@@ -1,14 +1,21 @@
 .AboutMe-Container {
-  height: 400px;
-  width: 96%;
+  /* height: 400px; */
+  width: 100%;
   border-bottom: 1px dotted grey;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .SectionTitle {
   text-align: center;
+  background-color: #222;
+  color: white;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 30px 0;
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
 }
 
 .About-Content {

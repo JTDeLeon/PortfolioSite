@@ -18,6 +18,7 @@ class SocialBar extends Component {
           <img className="social-icon" src={instagram} width="50px" height="50px" alt="Instagram"/>
           <img className="social-icon" src={github} width="50px" height="50px" alt="GitHub"/>
         </div>
+        <h4 id="social-handle">@JonTDeleon</h4>
       </div>
     );
   }

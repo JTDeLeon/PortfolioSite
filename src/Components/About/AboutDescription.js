@@ -7,16 +7,22 @@ class AboutDescription extends Component {
       <div className="description-container">
         <div>
           <h3>Interests</h3>
-          <ul>
+          <ul id="interest-list">
             <li>Coding</li>
-            <li>..</li>
-            <li>..</li>
-            <li>..</li>
+            <li>Brazilian Jiu Jitsu</li>
+            <li>Learning</li>
+            <li>Spending Time With Family</li>
           </ul>
         </div>
-        <div>
-          <h3>Goals & Ambitions</h3>
-          <p>Lorem ipsum dolor sit amet, debet sanctus volutpat sed ne. Et has tractatos evertitur. Ei nam facer dissentias constituam, iudicabit accusamus disputationi vim at. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.</p>
+        <hr/>
+        <div className="abt-desc">
+          <h3 className="abt-title">My Story In 4 Sentences</h3>
+          <p>My whole life I have always had a fascination with anything technology and business. <br/><br/>After college I started and successfully operated a digital marketing agency where I learned and grew my skills through a variety of hands on learning techniques. <br/><br/>I wanted to learn from others and be mentored in furthering my analytical decision making, so I took a job doing this web analytics which resulted in me learning the capabilities and "Awesomeness" of javascript and web developement. <br/><br/>While completing the variety of projects needed to obtain my certificate from the Udacity Front End Nanodegree program, I taught myself how to code.</p>
+        </div>
+        <hr/>
+        <div className="abt-desc">
+          <h3 className="abt-title">Goals & Ambitions</h3>
+          <h4>Professional</h4><p>It is my goal to become an expert practitioner of website development. I want to be able to tackle any problem with ease. And with this newfound skill I want to build beatiful and unique online experiences that will bring value to users of the web properties. I also strive to learn more about mobile development through REACT Native. <br/><br/>In my opinion, expanding ones thinking beyond developing in only one platform can lead to innovative ideas. <br/><h4>Personal</h4>I am also working towards obtaining my black belt in Brazilian Jiu Jitsu. Obtaining black belt takes dedication and consistency as it is a 10 year long journey. I have been training for about a year and will be obtaining my blue belt soon. <br/><br/>I find learning and self developement a deep interest of mine, and I see myself to be a life-long learner. </p>
         </div>
 
       </div>

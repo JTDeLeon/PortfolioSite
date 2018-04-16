@@ -1,4 +1,22 @@
 .description-container {
   width: 70%;
-  border: 1px solid blue;
+  border: 1px solid #222;
+  margin: 0 30px 30px 0;
+  padding: 10px;
+  text-align: center;
+  /* background-color: #222; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #222;
+}
+
+.abt-desc, .abt-title {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+#interest-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: square;
+  /* font-size: 14px; */
 }

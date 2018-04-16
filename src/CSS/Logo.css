@@ -4,13 +4,27 @@ h3, p {
 }
 
 .App-logo {
-  background-color: blue;
+  background-color: cyan;
   height: 75%;
   width: 20%;
   display: flex;
   margin: auto;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
 }
 
 .logo-item {
   margin: auto;
+  text-align: center;
+  color: black;
+}
+
+#full-name {
+  text-transform: capitalize;
+}
+
+#occupation-title {
+  font-style: italic;
+  margin: 2px 0;
 }

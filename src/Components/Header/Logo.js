@@ -6,8 +6,8 @@ class Logo extends Component {
     return (
       <div className="App-logo">
         <div className="logo-item">
-          <h3>Jonathan T Deleon</h3>
-          <p>Front End Developer</p>
+          <h3 id="full-name">Jonathan T Deleon</h3>
+          <p id="occupation-title">Front End Web Developer</p>
         </div>
       </div>
     );
