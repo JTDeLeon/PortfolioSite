@@ -1,5 +1,5 @@
 .Skills-Container {
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
   border-bottom: 1px dotted grey;
   display: flex;
@@ -13,11 +13,11 @@
 }
 
 .Experiences {
-  margin: 0 50px;
+  margin: 0;
 }
 
 #experience-list {
-  list-style: none;
+  list-style: square;
   display: flex;
   justify-content: space-evenly;
   padding: 0 15px 0 0;
@@ -32,4 +32,9 @@
   color: white;
   font-size: 14px;
   border-radius: 20px;
+}
+
+#exp-description {
+  margin: 30px;
+  text-align: center;
 }

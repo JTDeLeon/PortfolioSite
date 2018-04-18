@@ -10,12 +10,14 @@ class SkillsAndExperiencesContainer extends Component {
       'HTML5',
       'CSS',
       'Vanilla Javascript',
+      'JSON',
       'JQuery'
     ];
 
     const javascriptFrameworkSkills =
     [
       'ES6',
+
       'Angular.js',
       'React.js'
     ];
@@ -29,7 +31,7 @@ class SkillsAndExperiencesContainer extends Component {
 
     return (
       <div className="Skills-Container">
-        <h1 className="SectionTitle">Skills</h1>
+        <h1 className="SectionTitle">Technical Skills</h1>
         <div className="Column-Container">
           <SkillsColumn
             category="Development Skills"
@@ -40,7 +42,7 @@ class SkillsAndExperiencesContainer extends Component {
             skill={javascriptFrameworkSkills}
           />
           <SkillsColumn
-            category="Developement Tools"
+            category="Development Tools"
             skill={developmentTools}
           />
         </div>
@@ -53,7 +55,7 @@ class SkillsAndExperiencesContainer extends Component {
             <li>Analytical & Data Driven</li>
             <li>Curious and Determined</li>
           </ul>
-          <p>Lorem ipsum dolor sit amet, debet sanctus volutpat sed ne. Et has tractatos evertitur. Ei nam facer dissentias constituam, iudicabit accusamus disputationi vim at. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an. Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.Duo no novum quodsi mentitum. Est similique incorrupte et, erat vivendo noluisse nec an.</p>
+          <p id="exp-description"><strong>From business owner to developer, I have found my passion in web development!</strong> <br/><br/>I realize that the world is about 100% online, and building websites and web applications allow you to have the power to distribute information in the way that you want. I am naturally curious and have found myself genuinely intrigued by the nature of the JavaScript language and web development industry as a whole. The amount of changes and a 'living' community allow for consistent personal growth. <br/><br/>I am working to hone in on my skills in javascript and React development so that I can become a better developer and build more awesome web (& mobile) apps!</p>
         </div>
 
         <button id="view-resume-btn" href="#">View Resume</button>

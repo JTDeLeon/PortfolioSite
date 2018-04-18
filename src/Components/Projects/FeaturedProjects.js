@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Project from './Project'
 import '../../CSS/FeaturedProjects.css'
+import test from '../../img/png/002-twitter.png';
+import test2 from '../../img/png/006-github-logo.png';
 
 class FeaturedProjects extends Component {
   render() {
@@ -12,16 +14,16 @@ class FeaturedProjects extends Component {
           title="Orlando Park Map"
           technology={["React", "Google Maps API", "FourSquare API"]}
           description="This is the description for my project. I rocked it and will get a job!"
-          img="#"
+          img={test}
         />
 
         <Project
           title="Orlando Park Map"
           technology={["React", "Google Maps API", "FourSquare API"]}
           description="This is the description for my project. I rocked it and will get a job!"
-          img="#"
+          img={test2}
         />
-        
+
         <Project
           title="Orlando Park Map"
           technology={["React", "Google Maps API", "FourSquare API"]}
