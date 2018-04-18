@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Project from './Project'
 import '../../CSS/FeaturedProjects.css'
-import test from '../../img/png/002-twitter.png';
-import test2 from '../../img/png/006-github-logo.png';
+import parkMapImg from '../../img/ParkMap.png';
+import myReadsAppImg from '../../img/myReadsApp.png';
+import memoryGameImg from '../../img/memorymatchgame.png'
 
 class FeaturedProjects extends Component {
   render() {
@@ -13,22 +14,24 @@ class FeaturedProjects extends Component {
         <Project
           title="Orlando Park Map"
           technology={["React", "Google Maps API", "FourSquare API"]}
-          description="This is the description for my project. I rocked it and will get a job!"
-          img={test}
+          description="This web app allows the user to view and filter local parks around the Orlando, FL area."
+          img={parkMapImg}
         />
 
         <Project
-          title="Orlando Park Map"
-          technology={["React", "Google Maps API", "FourSquare API"]}
-          description="This is the description for my project. I rocked it and will get a job!"
-          img={test2}
+          title="My Reading Bookshelf"
+          technology={["React", "Google Books API", "JSON"]}
+          description="This web app allows the user to search books and categorize books on a virtual bookshelf."
+          img={myReadsAppImg}
         />
 
         <Project
-          title="Orlando Park Map"
-          technology={["React", "Google Maps API", "FourSquare API"]}
-          description="This is the description for my project. I rocked it and will get a job!"
-          img="#"
+          title="Memory Matching Game"
+          technology={["Vanilla JavaScript"]}
+          description="This project helped take my skills in JavaScript to the next level. This is built in pure vanilla JS and is a memory matching game for a user to enjoy."
+          img={memoryGameImg}
+          linkToLive="https://jtdeleon.github.io/MemoryMatchingGame/"
+          linkToGH="https://github.com/JTDeLeon/MemoryMatchingGame"
         />
 
       </div>

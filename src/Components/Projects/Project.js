@@ -8,7 +8,8 @@ class Project extends Component {
       <div className="f-project">
         <h3 className="project-title">{this.props.title}</h3>
         <div className="project-image">
-          <img src={this.props.img}/>
+          <img
+            className="p-image" src={this.props.img}/>
         </div>
         <div className="project-technology">
           <h4 className="tech-title">Technologies Used: </h4>
@@ -18,10 +19,13 @@ class Project extends Component {
             })}
           </ul>
           <div className="project-description">
-            <h4 className="tech-title">Description: </h4>
+            <h4 className="description-title">Description: </h4>
             <p>{this.props.description}</p>
           </div>
-
+          <div className="btn-cont">
+            <button className="p-btn">View Live Project</button>
+            <button className="p-btn-gh">View GitHub Repo</button>
+          </div>
         </div>
       </div>
     );

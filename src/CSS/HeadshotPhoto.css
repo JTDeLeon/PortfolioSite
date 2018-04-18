@@ -9,3 +9,8 @@
   background-color: orange;
   margin: auto;
 }
+
+.headshot_photo_img {
+  width: 100%;
+  height: 100%;
+}
