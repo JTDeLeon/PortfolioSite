@@ -20,7 +20,7 @@ class Project extends Component {
           </ul>
           <div className="project-description">
             <h4 className="description-title">Description: </h4>
-            <p>{this.props.description}</p>
+            <p className="description_project">{this.props.description}</p>
           </div>
           <div className="btn-cont">
             <button className="p-btn">View Live Project</button>

@@ -24,6 +24,10 @@
   font-weight: bold;
 }
 
+#resume-btn-container {
+  display: flex;
+}
+
 #view-resume-btn {
   height: 40px;
   width: 120px;

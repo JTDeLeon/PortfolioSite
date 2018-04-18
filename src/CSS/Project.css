@@ -59,3 +59,7 @@
   flex-direction: column;
   margin: 0 50px;
 }
+
+.description_project {
+  text-align: center;
+}
