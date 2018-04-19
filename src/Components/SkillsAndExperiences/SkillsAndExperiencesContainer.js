@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import SkillsColumn from './SkillsColumn'
 import '../../CSS/SkillsAndExperiencesContainer.css'
 import resume from '../../JonathanResume.pdf'
@@ -32,7 +33,10 @@ class SkillsAndExperiencesContainer extends Component {
 
     return (
       <div className="Skills-Container">
-        <h1 className="SectionTitle">Technical Skills</h1>
+        <ScrollableAnchor
+          id="skills-section" >
+          <h1 className="SectionTitle">Technical Skills</h1>
+        </ScrollableAnchor>
         <div className="Column-Container">
           <SkillsColumn
             category="Development Skills"

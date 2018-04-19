@@ -58,7 +58,7 @@
   color: white;
   font-size: 14px;
   border-radius: 20px;
-
+  border: 1px solid #222;
 }
 
 .p-btn-gh-link {
