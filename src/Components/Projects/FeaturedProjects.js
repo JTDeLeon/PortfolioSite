@@ -16,6 +16,7 @@ class FeaturedProjects extends Component {
           technology={["React", "Google Maps API", "FourSquare API"]}
           description="This web app allows the user to view and filter local parks around the Orlando, FL area."
           img={parkMapImg}
+          linkToGH="https://github.com/JTDeLeon/ReactGoogleMapApp"
         />
 
         <Project
@@ -23,6 +24,7 @@ class FeaturedProjects extends Component {
           technology={["React", "Google Books API", "JSON"]}
           description="This web app allows the user to search books and categorize books on a virtual bookshelf."
           img={myReadsAppImg}
+          linkToGH="https://github.com/JTDeLeon/-React-ReadingBookShelf"
         />
 
         <Project

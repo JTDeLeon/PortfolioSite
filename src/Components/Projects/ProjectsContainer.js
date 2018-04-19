@@ -8,7 +8,13 @@ class ProjectsContainer extends Component {
       <div className="section-Container">
         <h1 className="SectionTitle">Featured Projects</h1>
         <FeaturedProjects />
-        <button id="view-projects-btn" href="#">View All Projects</button>
+        <button id="view-projects-btn" href="https://github.com/JTDeLeon"><a
+          className="btn-link"
+          href="https://github.com/JTDeLeon"
+          target="_blank">
+        View All Projects</a></button>
+
+
       </div>
     );
   }

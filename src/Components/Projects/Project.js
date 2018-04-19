@@ -23,8 +23,12 @@ class Project extends Component {
             <p className="description_project">{this.props.description}</p>
           </div>
           <div className="btn-cont">
-            <button className="p-btn">View Live Project</button>
-            <button className="p-btn-gh">View GitHub Repo</button>
+            {/* <button className="p-btn">View Live Project</button> */}
+            <button className="p-btn-gh">
+              <a
+                className="p-btn-gh-link"
+                href={this.props.linkToGH}
+                target="_blank">View GitHub Repo</a></button>
           </div>
         </div>
       </div>

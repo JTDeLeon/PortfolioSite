@@ -52,6 +52,18 @@
 .p-btn, .p-btn-gh {
   text-align: center;
   margin: auto;
+  height: 20px;
+  width: 150px;
+  background-color: cyan;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+
+}
+
+.p-btn-gh-link {
+  text-decoration: none;
+  color: black;
 }
 
 .project-technology {
@@ -62,4 +74,9 @@
 
 .description_project {
   text-align: center;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
 }
