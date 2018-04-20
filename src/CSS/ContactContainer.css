@@ -5,3 +5,11 @@
   display: flex;
   justify-content: space-around;
 }
+
+/* SmartPhones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .contact-container {
+    height: auto;
+    flex-direction: column;
+  }
+}

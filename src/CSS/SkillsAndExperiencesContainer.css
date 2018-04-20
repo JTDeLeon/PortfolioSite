@@ -60,4 +60,14 @@
     padding: 0;
   }
 
+  #experience-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #experience-list li {
+    margin: 10px 0;
+    font-style: italic;
+  }
+
 }

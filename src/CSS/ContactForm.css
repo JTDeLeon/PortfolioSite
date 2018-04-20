@@ -28,3 +28,14 @@
   width: 98%;
 
 }
+
+/* SmartPhones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .form-container {
+    margin: 10px auto;
+  }
+
+  input, textarea {
+    border: 1px solid #222;
+  }
+}
