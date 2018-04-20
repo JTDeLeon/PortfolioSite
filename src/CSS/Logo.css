@@ -28,3 +28,21 @@ h3, p {
   font-style: italic;
   margin: 2px 0;
 }
+
+/* SmartPhones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .App-header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .App-logo {
+    font-size: 12px;
+    width: 80%;
+    height: 50px;
+  }
+
+  #occupation-title {
+    margin: auto;
+  }
+}

@@ -15,7 +15,8 @@ class ProjectsContainer extends Component {
         <button id="view-projects-btn" href="https://github.com/JTDeLeon"><a
           className="btn-link"
           href="https://github.com/JTDeLeon"
-          target="_blank">
+          target="_blank"
+          rel="noopener noreferrer">
         View All Projects</a></button>
 
 

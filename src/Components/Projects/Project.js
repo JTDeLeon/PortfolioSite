@@ -9,13 +9,14 @@ class Project extends Component {
         <h3 className="project-title">{this.props.title}</h3>
         <div className="project-image">
           <img
-            className="p-image" src={this.props.img}/>
+            className="p-image" src={this.props.img}
+            alt={this.props.title}/>
         </div>
         <div className="project-technology">
           <h4 className="tech-title">Technologies Used: </h4>
           <ul className="tech-list">
             {this.props.technology.map((tech)=>{
-              return <li>{tech}</li>;
+              return <li key={tech}>{tech}</li>;
             })}
           </ul>
           <div className="project-description">

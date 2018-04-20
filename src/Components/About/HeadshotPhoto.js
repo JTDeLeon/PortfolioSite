@@ -7,7 +7,8 @@ class HeadshotPhoto extends Component {
     return (
       <div className="headshot-container">
         <div className="headshot-photo">
-          <img className="headshot_photo_img" src={hs_img}/>
+          <img className="headshot_photo_img" src={hs_img}
+          alt="headshot"/>
         </div>
       </div>
     );

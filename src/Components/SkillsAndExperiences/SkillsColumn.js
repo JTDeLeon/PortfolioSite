@@ -8,7 +8,7 @@ class SkillsColumn extends Component {
         <h3>{this.props.category}</h3>
         <ul id={this.props.category}>
           {this.props.skill.map((skill)=>{
-            return <li>{skill}</li>;
+            return <li key={skill}>{skill}</li>;
           })}
         </ul>
       </div>
