@@ -23,3 +23,10 @@
   height: 80%;
   align-items: flex-start;
 }
+
+/* SmartPhones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .About-Content{
+    flex-direction: column;
+  }
+}

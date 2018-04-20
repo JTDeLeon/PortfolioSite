@@ -43,3 +43,21 @@
   margin: 30px;
   text-align: center;
 }
+
+/* SmartPhones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .Column-Container {
+    flex-direction: column;
+  }
+
+  .Skills-Column {
+    text-align: center;
+  }
+
+  .Skills-Column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+}

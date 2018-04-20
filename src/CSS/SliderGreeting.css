@@ -14,3 +14,14 @@
   color: cyan;
   text-decoration: underline;
 }
+
+
+/* SmartPhones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+.Greeting-Container{
+  font-size: 1.3em;
+  text-align: center;
+}
+
+}
