@@ -22,7 +22,20 @@
 }
 
 /* SmartPhones */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .description-container {
+    margin: 10px auto;
+  }
+
+  #interest-list {
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .description-container {
     margin: 10px auto;
   }

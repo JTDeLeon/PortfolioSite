@@ -30,7 +30,7 @@ h3, p {
 }
 
 /* SmartPhones */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
   .App-header {
     flex-direction: column;
     height: auto;
@@ -48,7 +48,7 @@ h3, p {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 481px) and (max-device-width : 1024px) {
   .App-logo {
     width: 40%;
   }

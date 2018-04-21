@@ -33,7 +33,7 @@ nav {
 }
 
 /* SmartPhones */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
   .navLinks {
     padding: 0;
   }
@@ -42,7 +42,7 @@ nav {
     font-size: 10px;
     border: 1px solid white;
     margin: 0 3px;
-    padding: 5px;
+    padding: 10px;
   }
 }
 
