@@ -4,7 +4,7 @@ input, textarea {
 
 .form-container {
   width: 250px;
-  height: 250px;
+  /* height: 250px; */
   border: 1px solid black;
   margin: auto;
   padding: 10px;
@@ -30,6 +30,10 @@ input, textarea {
 
 #contact-btn {
   width: 98%;
+  background-color: cyan;
+  color: black;
+  border: 1px solid #222;
+  border-radius: 20px;
 
 }
 

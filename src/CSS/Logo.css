@@ -22,6 +22,8 @@ h3, p {
 
 #full-name {
   text-transform: capitalize;
+  /* font-weight: bold; */
+  /* font-size: 20px; */
 }
 
 #occupation-title {
@@ -39,7 +41,7 @@ h3, p {
   .App-logo {
     font-size: 12px;
     width: 80%;
-    height: 50px;
+  padding-bottom: 35px;
   }
 
   #occupation-title {

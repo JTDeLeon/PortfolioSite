@@ -14,7 +14,7 @@ class FeaturedProjects extends Component {
         <Project
           title="Orlando Park Map"
           technology={["React", "Google Maps API", "FourSquare API"]}
-          description="This web app allows the user to view and filter local parks around the Orlando, FL area."
+          description="This web app allows the user to view and filter information on local parks around the Orlando, FL area."
           img={parkMapImg}
           linkToGH="https://github.com/JTDeLeon/ReactGoogleMapApp"
         />
