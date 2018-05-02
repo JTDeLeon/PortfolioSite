@@ -18,17 +18,17 @@ class SkillsAndExperiencesContainer extends Component {
 
     const javascriptFrameworkSkills =
     [
-      'ES6',
+      {skill:'ES6', rating:85},
+      {skill:'React.js', rating:88},
+      {skill:'Angular.js', rating:40}
 
-      'Angular.js',
-      'React.js'
     ];
 
     const developmentTools =
     [
-      'Git',
-      'NPM',
-      'WebPack'
+      {skill:'Git', rating:90},
+      {skill:'NPM', rating:75},
+      {skill:'WebPack', rating:60}
     ];
 
     return (
@@ -42,14 +42,15 @@ class SkillsAndExperiencesContainer extends Component {
             category="Development Skills"
             skill={developmentSkills}
           />
-          {/* <SkillsColumn
+          <SkillsColumn
             category="Javascript Frameworks"
             skill={javascriptFrameworkSkills}
           />
           <SkillsColumn
             category="Development Tools"
             skill={developmentTools}
-          /> */}
+          />
+          <span id="skills-footer">Needless to say, I am learning and growing my skills every single day! <br/>You can follow my progress on twitter for my <span className="emphasisWord">#100DaysOfCode</span> challenge. </span>
         </div>
 
 
