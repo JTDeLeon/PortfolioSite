@@ -9,11 +9,11 @@ class SkillsAndExperiencesContainer extends Component {
 
     const developmentSkills =
     [
-      'HTML5',
-      'CSS',
-      'Vanilla Javascript',
-      'JSON',
-      'JQuery'
+      {skill: 'HTML5',rating:95},
+      {skill: 'CSS', rating:85},
+      {skill: 'Vanilla Javascript',rating:90},
+      {skill: 'JSON',rating:80},
+      {skill: 'JQuery',rating:50}
     ];
 
     const javascriptFrameworkSkills =
@@ -42,14 +42,14 @@ class SkillsAndExperiencesContainer extends Component {
             category="Development Skills"
             skill={developmentSkills}
           />
-          <SkillsColumn
+          {/* <SkillsColumn
             category="Javascript Frameworks"
             skill={javascriptFrameworkSkills}
           />
           <SkillsColumn
             category="Development Tools"
             skill={developmentTools}
-          />
+          /> */}
         </div>
 
 

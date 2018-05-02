@@ -8,12 +8,37 @@
 
 .Column-Container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 0 50px;
+  /* margin: auto; */
+
 }
 
 .Experiences {
   margin: 0;
+}
+
+.Skills-Column {
+  width: 100%;
+  display: flex;
+}
+
+.skill-category {
+  width: 100%;
+}
+
+.row-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.bar-line {
+  width: 70%;
+  height: 10px;
+  background-color: green;
+  margin: auto;
 }
 
 #experience-list {

@@ -6,11 +6,25 @@ class SkillsColumn extends Component {
     return (
       <div className="Skills-Column">
         <h3>{this.props.category}</h3>
-        <ul id={this.props.category}>
+        <div
+          className="skill-category"
+          id={this.props.category.split(' ').join('_')}>
           {this.props.skill.map((skill)=>{
-            return <li key={skill}>{skill}</li>;
+            return (
+            <div className="skill-row-container">
+              <div
+                key={skill.skill}
+                className="row-container">
+                <span className="skill">{skill.skill}</span>
+                <span className="skill-rating">{skill.rating}</span>
+              </div>
+              <div className="bar-line">
+                
+              </div>
+            </div>
+            );
           })}
-        </ul>
+        </div>
       </div>
     );
   }
