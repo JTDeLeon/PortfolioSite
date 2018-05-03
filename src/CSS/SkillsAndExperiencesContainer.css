@@ -55,15 +55,13 @@
 .bar-line {
   width: 70%;
   height: 10px;
-  background-color: lightgreen;
+  background-color: #90ee905c;
   margin: auto;
+  border-radius: 20px;
 }
 
 .filled-bar {
-  /* width: 95%; */
-  /* height: 10px;
-  background-color: green;
-  z-index: 1; */
+  border-radius: 20px;
 }
 
 span#skills-footer {

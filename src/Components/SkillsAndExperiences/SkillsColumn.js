@@ -14,7 +14,7 @@ class SkillsColumn extends Component {
             const barStyle = {
               width: `${skill.rating}%`,
               height: '10px',
-              backgroundColor: 'green',
+              backgroundColor: '#33d685',
               zIndex: 1
             }
 

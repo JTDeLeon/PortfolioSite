@@ -50,7 +50,8 @@ class SkillsAndExperiencesContainer extends Component {
             category="Development Tools"
             skill={developmentTools}
           />
-          <span id="skills-footer">Needless to say, I am learning and growing my skills every single day! <br/>You can follow my progress on twitter for my <span className="emphasisWord">#100DaysOfCode</span> challenge. </span>
+          <span id="skills-footer">Needless to say, I am learning and growing my skills every single day! <br/>You can follow my progress on <a href="https://twitter.com/JonTDeleon"
+          target="_blank">twitter</a> for my <span className="emphasisWord">#100DaysOfCode</span> challenge. </span>
         </div>
 
 
