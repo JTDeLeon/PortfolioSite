@@ -110,6 +110,11 @@ span#skills-footer {
 
   .Skills-Column {
     text-align: center;
+    flex-direction: column;
+  }
+
+  .Category-Header {
+    width: auto;
   }
 
   .Skills-Column ul {
