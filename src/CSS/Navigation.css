@@ -9,6 +9,10 @@ nav {
 
 .nav-Link {
   margin: 0 10px;
+  font-size: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: black;
 }
 
 .a-nav-link {
@@ -25,7 +29,11 @@ nav {
 
 .a-nav-link:hover {
     text-decoration: underline;
-    color: cyan;
+    color: lawngreen;
+}
+
+.nav-Link:hover {
+    border-color: lawngreen;
 }
 
 .a-nav-link:active {
