@@ -11,6 +11,7 @@
   margin: auto;
   color: white;
   background-color: black;
+  box-shadow: 5px 5px 10px black;
   /* position: absolute; */
 }
 
@@ -23,8 +24,9 @@
   position: absolute;
   background-color: black;
   width: 150px;
-  padding: 0 140.2px;
+  padding: 0 139px;
   text-align: center;
+  box-shadow: 5px 5px 10px black;
 }
 
 
