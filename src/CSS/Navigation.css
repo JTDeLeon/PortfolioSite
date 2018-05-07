@@ -10,10 +10,10 @@ nav {
 .nav-Link {
   margin: 0 10px;
   font-size: 20px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 10px;
-  background-color: black;
-  box-shadow: 5px 5px 10px black;
+  /* background-color: black; */
+  /* box-shadow: 5px 5px 10px black; */
 }
 
 .a-nav-link {
