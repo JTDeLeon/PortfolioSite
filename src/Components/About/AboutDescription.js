@@ -5,12 +5,13 @@ class AboutDescription extends Component {
   render() {
     return (
       <div className="description-container">
-        <div>
+        <div class="interests">
           <h3>Interests</h3>
           <ul id="interest-list">
-            <li>Coding</li>
-            <li>Brazilian Jiu Jitsu</li>
-            <li>Learning</li>
+            <li>Craft Coffee</li>
+            <li>Martial arts (Brazilian Jiu Jitsu)</li>
+            <li>Podcasts (Syntax & FreeCodeCamp)</li>
+            <li>Motorcycles</li>
             <li>Spending Time With Family</li>
           </ul>
         </div>

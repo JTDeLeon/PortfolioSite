@@ -20,6 +20,7 @@
 
 .About-Content {
   display: flex;
+  flex-direction: column;
   height: 80%;
   align-items: flex-start;
 }
