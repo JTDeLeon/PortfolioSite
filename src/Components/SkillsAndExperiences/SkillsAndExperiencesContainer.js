@@ -56,14 +56,17 @@ class SkillsAndExperiencesContainer extends Component {
 
 
         <div className="Experiences">
+
           <h1 className="SectionTitle">Experiences</h1>
+        <div className="exp-container">
           <ul id="experience-list">
             <li>Self-Taught Web Developer</li>
             <li>Analytical & Data Driven</li>
             <li>Curious and Determined</li>
           </ul>
-          <p id="exp-description"><strong>From business owner to developer, I have found my passion in web development!</strong> <br/><br/>I realize that the world is about 100% online, and building websites and web applications allow you to have the power to distribute information in the way that you want. I am naturally curious and have found myself genuinely intrigued by the nature of the JavaScript language and web development industry as a whole. The amount of changes and a 'living' community allow for consistent personal growth. <br/><br/>I am working to hone in on my skills in javascript and React development so that I can become a better developer and build more awesome web (& mobile) apps!</p>
+          <p id="exp-description"><span className="bold-word">From business owner to developer, I have found my passion in web development!</span> <br/><br/>I realize that the world is about 100% online, and building websites and web applications allow you to have the power to distribute information in the way that you want. I am naturally curious and have found myself genuinely intrigued by the nature of the JavaScript language and web development industry as a whole. The amount of changes and a 'living' community allow for consistent personal growth. <br/><br/>I am working to hone in on my skills in javascript and React development so that I can become a better developer and build more awesome web (& mobile) apps!</p>
         </div>
+      </div>
 
 
         <form

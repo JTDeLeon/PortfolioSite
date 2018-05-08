@@ -89,7 +89,7 @@ span#skills-footer {
 #view-resume-btn {
   height: 40px;
   width: 120px;
-  margin: 50px auto;
+  margin: 0 auto 20px auto;
   background-color: #222;
   color: white;
   font-size: 14px;
@@ -97,9 +97,24 @@ span#skills-footer {
   cursor: pointer;
 }
 
+#view-resume-btn:hover {
+  color: lawngreen;
+}
+
 #exp-description {
   margin: 30px;
   text-align: center;
+}
+
+.exp-container {
+    width: 80%;
+    margin: auto;
+}
+
+.bold-word {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
 }
 
 /* SmartPhones */
