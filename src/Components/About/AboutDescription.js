@@ -5,7 +5,7 @@ class AboutDescription extends Component {
   render() {
     return (
       <div className="description-container">
-        <div class="interests">
+        <div className="interests">
           <h3 className="abt-title">Interests</h3>
           <ul id="interest-list">
             <li>Craft Coffee</li>
@@ -16,12 +16,12 @@ class AboutDescription extends Component {
           </ul>
         </div>
         <hr/>
-        <div className="abt-desc">
+        <div className="abt-desc short-summary">
           <h3 className="abt-title">My Story In 4 Sentences</h3>
           <p>My whole life I have always had a fascination with anything technology and business. <br/><br/>After college I started and successfully operated a digital marketing agency where I learned and grew my skills through a variety of hands on learning techniques. <br/><br/>I wanted to learn from others and be mentored in furthering my analytical decision making, so I took a job doing web analytics; which then resulted in me learning the capabilities and "Awesomeness" of javascript and web development. <br/><br/>While completing the variety of projects needed to obtain my certificate from the Udacity Front-End Nanodegree program, I taught myself how to code.</p>
         </div>
         <hr/>
-        <div className="abt-desc">
+        <div className="abt-desc goals-ambitions">
 
           <h3 className="abt-title">Goals & Ambitions</h3>
           <div className="GoalsSection">

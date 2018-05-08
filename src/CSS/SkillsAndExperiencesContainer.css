@@ -10,7 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin: auto; */
+  width: 80%;
+  margin: auto;
 
 }
 

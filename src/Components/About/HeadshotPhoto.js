@@ -15,7 +15,8 @@ class HeadshotPhoto extends Component {
           <h4 className="city">Orlando, FL</h4>
 
           <p className="summary">
-            From business owner to web developer, I have acquired the skills to bring a website from developing, marketing , and optimizing the website.  <br/>
+            From business owner to web developer, I have acquired the skills to bring a website from developing, marketing , and optimizing the website. I've Obtained web development skills through completing Udacity’s Front End Web Developer Nanodegree where through this program I developed 8 independent web applications that used Vanilla JS, React, and 3rd party APIs.
+ <br/>
           </p>
           <ul className="summary-links">
             <li>GitHub</li>
