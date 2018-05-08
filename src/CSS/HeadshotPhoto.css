@@ -66,6 +66,30 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
   .headshot-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headshot-description {
+    width: auto;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .headshot-photo {
+    margin: 0 auto 20px auto;
+  }
+
+  .summary-links li {
+    margin: 0 10px;
+  }
+
+  .GoalsSection {
+    display: block;
+  }
+
+  .goal {
+    width: 100%;
   }
 }
 

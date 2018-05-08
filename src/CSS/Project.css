@@ -54,7 +54,7 @@
   margin: auto;
   height: 20px;
   width: 150px;
-  background-color: cyan;
+  background-color: lawngreen;
   color: white;
   font-size: 14px;
   border-radius: 20px;
@@ -79,6 +79,11 @@
 .btn-link {
   color: white;
   text-decoration: none;
+  padding: 10px;
+}
+
+.btn-link:hover {
+  color: lawngreen;
 }
 
 /* SmartPhones */
