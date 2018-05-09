@@ -47,7 +47,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.summary-links li {
+.summary-links li a {
   color: white;
   background-color: #222;
   margin: 0 20px;
@@ -58,8 +58,14 @@
   text-align: center;
 }
 
-.summary-links li:hover {
+.summary-links li a:hover {
   color: lawngreen;
+}
+
+.phone-num {
+  margin-top: 20px;
+  color:blue;
+  text-align: center;
 }
 
 /* SmartPhones */

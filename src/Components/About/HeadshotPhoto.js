@@ -3,6 +3,22 @@ import '../../CSS/HeadshotPhoto.css'
 import hs_img from '../../img/headshot2_old.jpeg'
 
 class HeadshotPhoto extends Component {
+
+  handlePhoneClick = (e) => {
+    e.preventDefault();
+    console.log("HELLO")
+    if(!document.querySelector('.phone-num')){
+      const target = document.querySelector('.summary-links');
+
+      let htmlToPass =
+      '<p class="phone-num"><a href="tel:+18503328801">(850) 332- 8801</a></p>';
+
+
+      target.insertAdjacentHTML('afterend',htmlToPass);
+
+    }
+  }
+
   render() {
     return (
       <div className="headshot-container">
@@ -19,10 +35,10 @@ class HeadshotPhoto extends Component {
  <br/>
           </p>
           <ul className="summary-links">
-            <li>GitHub</li>
-            <li>LinkedIn</li>
-            <li>Email</li>
-            <li>Phone</li>
+            <li><a href="https://github.com/JTDeLeon/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/jonathantdeleon/" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:JonathanTDeleon@gmail.com">Email</a></li>
+            <li><a href="#" onClick={this.handlePhoneClick}>Phone</a></li>
           </ul>
         </div>
       </div>
