@@ -145,6 +145,7 @@ span#skills-footer {
   #experience-list {
     flex-direction: column;
     text-align: center;
+    list-style: none;
   }
 
   #experience-list li {

@@ -62,6 +62,15 @@
     list-style: none;
     padding: 0;
   }
+
+  .GoalsSection {
+    display: block;
+  }
+
+  .goal {
+    width: auto;
+    padding: inherit;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
