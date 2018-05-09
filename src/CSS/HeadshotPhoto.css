@@ -56,6 +56,7 @@
   border-radius: 20px;
   width: 120px;
   text-align: center;
+  text-decoration: none;
 }
 
 .summary-links li a:hover {
@@ -90,6 +91,10 @@
     margin: 0 10px;
   }
 
+  .summary-links li a {
+    margin: auto;
+  }
+
 
 }
 
@@ -97,5 +102,13 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .headshot-container {
     width: 100%;
+  }
+
+  .summary-links li {
+    margin: 10px 0;
+  }
+
+  .headshot-description {
+    margin: 0 10px;
   }
 }
